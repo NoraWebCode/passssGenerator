@@ -1,5 +1,5 @@
 const lowercase = 'abcdefghijklmnopqrstuvwxyz';
-const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // Исправлено: добавлена P
+const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; 
 const symbols = '?@$%#^&*()_-=+~';
 const numbers = '1234567890';
 
@@ -44,4 +44,5 @@ if (isNaN(passLength) || passLength < 4 || passLength > 30) {
         alert("Ваш пароль: " + password);
         console.log("Сгенерированный пароль:", password);
     }
+
 }
